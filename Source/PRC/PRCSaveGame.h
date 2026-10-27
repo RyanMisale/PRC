@@ -13,6 +13,7 @@ UCLASS()
 class PRC_API UPRCSaveGame : public USaveGame
 {
 	GENERATED_BODY()
+public:
 	UPROPERTY(BlueprintReadWrite, Category = "Save")
 	int32 Score = 0;
 	
